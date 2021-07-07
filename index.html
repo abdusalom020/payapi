@@ -1,16 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="side" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>project</title>
+  <title>Pay API</title>
   <link rel="stylesheet" href="css/normalize-mini.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   
+  <header class="header">
+    <div class="container header-container">
+      <a class="header-logo__link" href="#"><img class="header-logo__img" src="img/header-logo.svg" alt="logo" width="135" height="38"></a>
+      <button class="header-nav__btn" type="button" aria-label="togler"></button>
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Pricing</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#"> About</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Contact</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__contact" href="#">Schedule a Demo</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
+  <main class="main">
+    <h1 class="visually-hidden">Pay API</h1>
+    <section class="hero">
+      <div class="container hero-container">
+        <h2 class="hero__heading">
+          Start building with our APIs for absolutely free.
+        </h2>
+        <form class="hero__form form" action="">
+          <input class="form__field" type="email" name="email address" placeholder="Enter email address" aria-label="email address"  required>
+
+          <button class="form__btn btn" type="submit">Schedule a Demo</button>
+        </form>
+        <p class="hero__info">Have any questions? <a class="hero__link" href="#">Contact Us</a></p>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="container work-container">
+        <div class="work__brand">
+          <img class="work__img" src="img/tesla-mobile.svg" alt="work reclama" width="107" height="15">
+          <img class="work__img" src="img/microsoft-mobile.svg" alt="work reclama" width="120" height="26">
+          <img class="work__img" src="img/hp-mobile.svg" alt="work reclama" width="115" height="22">
+          <img class="work__img" src="img/oracle-mobile.svg" alt="work reclama" width="108" height="14">
+          <img class="work__img" src="img/google-mobile.svg" alt="work reclama" width="79" height="27">
+          <img class="work__img" src="img/nvidia-mobile.svg" alt="work reclama" width="113" height="22">
+        </div>
+        <div class="work__info">
+          <h2 class="work__heading">Who we work with</h2>
+          <p class="work__text">Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.</p>
+          <a class="work__link" href="#">About Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <script src="js/main.js"></script>
 </body>
